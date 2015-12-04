@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 
 def make(n):
     fname = "Pin_Header_Straight_1x{:02d}_1_27mm.kicad_mod".format(n)
