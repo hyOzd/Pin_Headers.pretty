@@ -9,10 +9,10 @@ def make(n):
     d['npins'] = n
 
     # first pad is rectangular
-    d['pads'] = "(pad 1 thru_hole rect (at 0 0) (size 1.143 1.143) (drill 0.558)\
+    d['pads'] = "(pad 1 thru_hole rect (at 0 0) (size 1.143 1.143) (drill 0.7)\
      (layers *.Cu *.Mask F.SilkS))\n"
     # template for other pads
-    pad_t = "  (pad {} thru_hole oval (at 0 {}) (size 1.143 0.889) (drill 0.558) (layers *.Cu *.Mask F.SilkS))"
+    pad_t = "  (pad {} thru_hole oval (at 0 {}) (size 1.143 0.889) (drill 0.7) (layers *.Cu *.Mask F.SilkS))"
 
     pitch = 1.27
     # create pads from template
